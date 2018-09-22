@@ -1,0 +1,110 @@
+/*sets base line rules for the pages*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	 font-size: 100%;
+	 background-color: #ddd;
+}
+
+h1 {
+    margin-top: 0;
+    color: navy;
+}
+
+h2 {
+	color: navy;
+	text-align: center;
+}
+
+nav {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+/*formats the nav links, makes them prettier inline blocks*/
+nav ul a li {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	background-color: navy;
+	color: gold;
+	font-size: 150%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    background: white;
+    border: 2px solid navy;
+	 border-radius: 4px;
+}
+
+/*makes paragraphs in main slightly larger, gives a little extra padding*/
+main p {
+	font-size: 120%;
+	padding: 2%;
+}
+
+img {
+	width: 100%;
+	text-align: center;
+}
+
+/*formats labels*/
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+}
+
+#data span {
+    padding-left: .25em;
+}
+
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+}
+
+br {
+    clear: left;
+}
+
+/*sizes the inputs*/
+#email_form input {
+    width: 30%;
+    padding: 12px 20px 10px 10px;
+    margin: 8px 10px 10px 10px;
+}
+
+#email_form label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+
+header {
+	text-align: center;
+	font-size: 400%;
+}
+
+table {
+	width: 100%;
+	border: solid 3px gold;
+	border-radius: 7px;
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: bold;
+	font-size: 105%;
+	padding: 6px;
+}
+
+td {
+	padding: 4px;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}

@@ -1,0 +1,267 @@
+
+body
+	{
+	background-color: #333333;
+	color: #f2f2f2;
+	font-family: arial, helvetica, clean, sans-serif;
+	font-size: 100%;
+	margin-top: 0;
+	}
+
+p
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	font-size: 125%;
+	text-align: left;
+	}
+
+h1
+	{
+	text-align: center;
+	font-size: 400%;
+	color: white;
+	margin: 0;
+	padding: 0;
+	}
+	
+img
+	{
+	padding:2px;
+	}
+
+
+
+a:link
+	{
+	color: aqua;
+	text-decoration: none;
+	}
+
+a:visited
+	{
+	color: cyan;
+	text-decoration: none;
+	}
+
+a:hover
+	{
+	text-decoration: underline;
+	}
+
+a:active
+	{
+	color: red;
+	}
+
+
+
+#bodyframe
+	{
+ 	float: right;
+	width: 84%;
+	}
+
+#innerbody
+	{
+	margin-right: 10%;
+	}
+
+#leftbar 
+	{
+	width: 16%;
+	float: right;
+	}
+
+#ft
+	{
+	font-size: 65%;
+	clear: both;
+	}
+
+#statemap
+	{
+	margin-left: 5%;
+	}
+
+table#statetable
+	{
+	width: 100%;
+	background-color: #666666;
+	border: 2px solid gray;
+	border-collapse: collapse;
+	}
+
+table#statetable th
+	{
+	text-align: left;
+	border: 2px solid gray;
+	padding: 3px;
+	}
+
+table#statetable td
+	{
+	border-bottom: 2px solid gray;
+	padding: 3px;
+	vertical-align: top;
+	}
+	
+#headBanner
+{
+	text-align: center;
+}
+
+
+
+table.statetableb
+	{
+	width: 100%;
+	background-color: #666666;
+	border: 2px solid gray;
+	border-collapse: collapse;
+	}
+
+table.statetableb th
+	{
+	text-align: left;
+	vertical-align: bottom;
+	border: 2px solid gray;
+	font-size: 110%;
+	color: white;
+	padding: 3px;
+	}
+
+table.statetableb td
+	{
+	border-bottom: 2px solid gray;
+	padding: 3px 15px 3px 0px;
+	vertical-align: top;
+	}
+
+table.commenttable
+	{
+	width: 100%;
+	table-layout: fixed;
+	word-wrap: break-word;
+	background-color: cyan;
+	color: black;
+	border-collapse: collapse;
+	}
+
+table.commenttable th
+	{
+	border: 2px solid red;
+	}
+
+table.commenttable td
+	{
+	word-wrap: break-word;
+	border: 2px solid red;
+	}
+
+.commentblock
+	{
+	background-color: #efefef;
+	color: black;
+	overflow: auto;
+	}
+
+.commentname
+	{
+	background-color: #f8f8f8;
+	color: black;
+	border: 1px solid black;
+	float: right;
+	width: 18%;
+	margin: 1%;
+	padding: 0px 4px;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	}
+
+.commentcomment
+	{
+	background-color: #f8f8f8;
+	color: black;
+	border: 1px solid black;
+	float: right;
+	width: 78%;
+	margin: 1%;
+	padding: 0px 4px;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	}
+
+.commenttime
+	{
+	text-align: right;
+	}
+
+.input
+	{
+	border: 1px solid black;
+	}
+
+.triptitle
+	{
+	font-size: 120%;
+	}
+
+.trippic
+	{
+	width: 160px;
+	height: 120px;
+	float: left;
+	margin: 4px;
+	}
+
+
+#tswcssbuttons {
+	width: 95% ;
+	text-align: center ;
+}
+
+#tswcssbuttons ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+
+#tswcssbuttons li {
+	margin: 0 ;
+	padding: 0 ;
+	display: block ;
+	list-style: none ;
+	font-family: Arial, Helvetica, sans-serif ;
+}
+
+#tswcssbuttons li a {
+	color: #000 ;
+	background-color: #c0c0c0 ;
+	border: 1px outset #000 ;
+	text-decoration: none ;
+	display: block ;
+}
+
+#tswcssbuttons li a:hover {
+	color: #fff ;
+	background-color: #000 ;
+}
+
+
+
+
+
+
+
+
+fieldset{border: none;}
+
+
+h2{font-size:123.1%;}
+h3{font-size:108%;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}
+abbr,acronym{border-bottom:1px dotted #000;cursor:help;} 
+em{font-style:italic;}
+blockquote,ul,ol,dl{margin:1em;}
+
